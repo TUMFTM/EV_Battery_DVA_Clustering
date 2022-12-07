@@ -16,13 +16,15 @@ This repository provides an XXX
 We are very happy if you choose this model implementation and auxiliaries for your projects and provide all updates under GNU LESSER GENERAL PUBLIC LICENSE Version 3 (29 June 2007). Please refer to the license file for any further questions about incorporating these scripts into your projects.
 We are looking forward to hearing your feedback and kindly ask you to share bugfixes, improvements and updates on the files provided.
 
-## Requirements
+## Getting started
 
-The model was created with XXXX and usage of the XXXX. If you want to commit an updated version using another software release or a specific toolbox please give us a short heads-up. 
+The repository was tested with Python XXX.
 
-## How To Use
+- Setup a virtual environment
+- Run 'main.py' with the test file provided in the input folder
 
-XXX
+If you want to commit an updated version using another software release or a specific toolbox please give us a short heads-up. 
+
 
 ## Authors and Maintainers
 
