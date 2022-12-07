@@ -1,5 +1,5 @@
 # EV_Battery_DVA_Clustering
-Repository for battery cell clustering in python
+Repository for battery cell clustering based on differential voltage analysis (DVA) in python
 
 This repository provides an XXX
 
@@ -29,8 +29,8 @@ If you want to commit an updated version using another software release or a spe
 ## Authors and Maintainers
 
 - Manuel Ank, manuel.ank@tum.de
-  - Idea and structure
-  - Supervision of the contributing student's theses.
+  - Idea of DVA clustering and structure
+  - Supervision of the contributing student thesis.
   - Final revision and validation
 - Tobias Brehler, tobias.brehler@tum.de
   - Coding
