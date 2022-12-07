@@ -9,7 +9,10 @@ This repository provides an XXX
 [DOI will follow with publication].
 
 ## Features
-- XXX
+- Clustering based on DBSCAN, hierarchical, HDBSCAN and k-means
+- Calculating of differential voltage analysis (DVA) and incremental capacity analysis (ICA)
+- Peakfinder (extrema)
+- Options for plotting, cell discard and data import from BioLogic measurement devices
 
 ## Usage of the code provided
 
