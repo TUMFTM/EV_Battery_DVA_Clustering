@@ -1,8 +1,6 @@
 # EV_Battery_DVA_Clustering
 Repository for battery cell clustering in python
 
-# Electrochemical lithium-ion battery model and easy-to-apply parameterization procedures for fast-charge applications
-
 This repository provides an XXX
 
 [Manuel Ank](mailto:manuel.ank@tum.de),<br/>
@@ -36,6 +34,13 @@ XXX
 - Tobias Brehler, tobias.brehler@tum.de
   - Coding
   - Methodology
+
+
+## Contributions
+
+[1] T. Brehler, "Implementation of Clustering Algorithms for Classification of Lithium-Ion Battery Cells for Electric Vehicles", Semester Thesis, Technical University of Munich, 2022
+
+[2] M. Ank, T. Brehler and M. Lienkamp, "Implementation of clustering algorithms for multi-cell characterization of lithium-ion battery cells for electric vehicles", Batterieforum Berlin, 2023.
 
   
 ## License
