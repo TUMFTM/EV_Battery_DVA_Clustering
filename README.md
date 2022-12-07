@@ -49,4 +49,4 @@ If you want to commit an updated version using another software release or a spe
   
 ## License
 
-This project is licensed under the GPL License - see the LICENSE.md file for details.
+This project is licensed under the GPL License - see the LICENSE file for details.
