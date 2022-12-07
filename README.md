@@ -11,11 +11,10 @@ This repository provides an XXX
 ## Features
 - XXX
 
-## Usage of the battery model
+## Usage of the code provided
 
-We are very happy if you choose this model implementation and auxiliaries for your projects and provide all updates under GNU LESSER GENERAL PUBLIC LICENSE Version 3 (29 June 2007).
-Please refer to the license file for any further questions about incorporating this battery model into your projects.
-We are looking forward to hearing your feedback and kindly ask you to share bugfixes, improvements and updates on the parameterization or implementation.
+We are very happy if you choose this model implementation and auxiliaries for your projects and provide all updates under GNU LESSER GENERAL PUBLIC LICENSE Version 3 (29 June 2007). Please refer to the license file for any further questions about incorporating these scripts into your projects.
+We are looking forward to hearing your feedback and kindly ask you to share bugfixes, improvements and updates on the files provided.
 
 ## Requirements
 
@@ -46,5 +45,3 @@ XXX
 ## License
 
 This project is licensed under the GPL License - see the LICENSE.md file for details.
-The project is built upon the original contributions by the research group of Scott Moura, University of California, Berkeley, US,
-which are themselves licensed under the GPL License. Files contain references and further information in the header.
