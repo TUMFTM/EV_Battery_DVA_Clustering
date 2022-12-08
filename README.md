@@ -21,7 +21,7 @@ We are looking forward to hearing your feedback and kindly ask you to share bugf
 
 ## Getting started
 
-The repository was tested with Python XXX.
+The repository was tested with Python 3.10.
 
 - Setup a virtual environment
 - Run 'main.py' with the test file provided in the input folder
