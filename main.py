@@ -28,7 +28,7 @@ if __name__ == '__main__':
     start_time = time.time()
 
     # TODO: choose file (.txt) with discharge and pulse (optional), no charge phase allowed
-    data_path = 'input/Test4_03_MB.txt'
+    data_path = 'input/Test1_03_MB.txt'
 
     # TODO: choose measurement equipment:
     #  option 1: 'BaSyTec'
