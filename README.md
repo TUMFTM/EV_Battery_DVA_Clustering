@@ -3,8 +3,8 @@ Repository for battery cell clustering based on differential voltage analysis (D
 
 This repository provides a codebase for clustering algorithms on interconnected battery cell discharge tests. 
 
-[Manuel Ank](mailto:manuel.ank@tum.de),<br/>
-**[Institute of Automotive Technology](https://www.mos.ed.tum.de/en/ftm/home/)**,<br/>
+[Manuel Ank](mailto:manuel.ank@tum.de)<br/>
+**[Institute of Automotive Technology](https://www.mos.ed.tum.de/en/ftm/home/)**<br/>
 **[Technical University of Munich, Germany](https://www.tum.de/en/)**
 
 ## Features
