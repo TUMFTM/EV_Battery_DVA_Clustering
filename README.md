@@ -1,7 +1,7 @@
 # EV_Battery_DVA_Clustering
 Repository for battery cell clustering based on differential voltage analysis (DVA) in python
 
-This repository provides a codebase for 
+This repository provides a codebase for clustering algorithms on interconnected battery cell discharge tests. 
 
 [Manuel Ank](mailto:manuel.ank@tum.de),<br/>
 **[Institute of Automotive Technology](https://www.mos.ed.tum.de/en/ftm/home/)**,<br/>
