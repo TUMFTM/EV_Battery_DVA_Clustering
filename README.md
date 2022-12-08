@@ -32,13 +32,7 @@ If you want to commit an updated version using another software release or a spe
 ## Authors and Maintainers
 
 - Manuel Ank, manuel.ank@tum.de
-  - Idea of DVA clustering and structure
-  - Supervision of the contributing student thesis.
-  - Final revision and validation
 - Tobias Brehler, tobias.brehler@tum.de
-  - Coding
-  - Methodology
-
 
 ## Contributions
 
