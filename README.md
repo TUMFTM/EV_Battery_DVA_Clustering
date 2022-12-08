@@ -1,12 +1,11 @@
 # EV_Battery_DVA_Clustering
 Repository for battery cell clustering based on differential voltage analysis (DVA) in python
 
-This repository provides an XXX
+This repository provides a codebase for 
 
 [Manuel Ank](mailto:manuel.ank@tum.de),<br/>
-**[Institute of Automotive Technology](https://www.mos.ed.tum.de/mos/startseite/)**,<br/>
-**[Technical University of Munich, Germany](https://www.tum.de/nc/en/)**,<br/>
-[DOI will follow with publication].
+**[Institute of Automotive Technology](https://www.mos.ed.tum.de/en/ftm/home/)**,<br/>
+**[Technical University of Munich, Germany](https://www.tum.de/en/)**
 
 ## Features
 - Clustering based on DBSCAN, hierarchical, HDBSCAN and k-means
