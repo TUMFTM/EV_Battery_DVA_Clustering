@@ -12,8 +12,6 @@ def dbscan(input_data):
     features = input_data.T
 
     labels = DBSCAN(eps=10, min_samples=2).fit_predict(features)
-    # proven parameters for INR18650: eps=2.1, min_samples=3
-    # proven parameters for coin cells: eps=10, min_samples=2
 
     # change labels for outlier to positive integer, every outlier has its own label
     outliers = np.argwhere(labels == -1)
