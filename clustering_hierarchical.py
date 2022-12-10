@@ -21,6 +21,7 @@ def hierarchical(features: np.array):
     :param features:    normalised features for clustering: list with x,y values of one extremum
     """
 
+    # plot dendrogram
     # labels_legend = np.array(range(1, features.shape[0] + 1))
     # plt.figure(figsize=[14.4 / 2.54, 10 / 2.54])
     # rcParams.update({'font.size': 8.5})
@@ -32,8 +33,6 @@ def hierarchical(features: np.array):
 
     labels_agg = AgglomerativeClustering(n_clusters=None, affinity='euclidean', linkage='average',
                                          distance_threshold=0.27, compute_full_tree=True).fit_predict(features)
-    # # proven distance_threshold for INR18650: 0.065
-    # # proven distance_threshold for coin cells: 0.27
 
     # make sure that main cluster has the index 0
     elements_cluster_0 = len(np.argwhere(labels_agg == 0))
