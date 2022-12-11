@@ -21,9 +21,9 @@ from plot_single_cells import plot
 if __name__ == '__main__':
 
     # TODO: enter number of cells
-    number_cells = 4  # 12
+    number_cells = 4
     # TODO: enter cell capacity in Ah
-    capacity_cell = 4.490e-3  # 3.4
+    capacity_cell = 4.490e-3
 
     start_time = time.time()
 

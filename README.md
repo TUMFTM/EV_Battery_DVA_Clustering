@@ -11,7 +11,8 @@ This repository provides a codebase for clustering algorithms on interconnected 
 - Clustering based on DBSCAN, hierarchical, HDBSCAN and k-means
 - Calculating of differential voltage analysis (DVA) and incremental capacity analysis (ICA)
 - Peakfinder (extrema)
-- Options for plotting, cell discard and data import from BioLogic measurement devices
+- Options for plotting, cell discard
+- Automated data import from BaSyTec and BioLogic measurement devices
 
 ## Usage of the code provided
 
@@ -20,13 +21,21 @@ We are looking forward to hearing your feedback and kindly ask you to share bugf
 
 ## Getting started
 
-The repository was tested with Python 3.10.
+The repository was developed with Python 3.8.
 
 - Setup a virtual environment
 - Run 'main.py' with the test file provided in the input folder
 
 If you want to commit an updated version using another software release or a specific toolbox please give us a short heads-up. 
 
+## Detailed guidance
+
+- Enter number of cells and nominal cell capacity in Ah
+- Enter path to txt-file; only discharge and rest allowed, discharge pulse optional for resistance determination
+- Choose one of the supported measurement equipments; check (and adjust) number of header lines within the corresponding read function
+- Check (and adjust) the cluster parameters depending on your cells (type, series production / pre-series, ...)
+- Optional: specify cut-off discharge capacity in Ah
+- Optional: insert list with cells you want to exclude
 
 ## Authors and Maintainers
 

@@ -5,7 +5,7 @@ from scipy.signal import find_peaks
 
 def find_extrema(input_dva: pd.DataFrame, input_Ah: pd.Series, remaining_cells):
     """find peaks and valleys of dva signal for each cell, store x and y values to new Pandas DataFrame
-    parameter to find peaks: prominence; set to 0.03 (empirically)
+    parameter to find peaks: prominence
     :param remaining_cells: list with all remaining cells
     :param input_Ah:        cumulative discharge capacity
     :type input_dva:        dva of all cells
@@ -15,9 +15,9 @@ def find_extrema(input_dva: pd.DataFrame, input_Ah: pd.Series, remaining_cells):
 
     for cell in range(len(input_dva.columns)):
         # get indices of maxima
-        peaks = find_peaks(input_dva.iloc[:, cell], prominence=0.03)  # prominence=0.03
+        peaks = find_peaks(input_dva.iloc[:, cell], prominence=0.03)
         # get indices of minima
-        valleys = find_peaks(-input_dva.iloc[:, cell], prominence=0.03)  # prominence=0.03
+        valleys = find_peaks(-input_dva.iloc[:, cell], prominence=0.03)
         # sorted list with both indices
         indices = np.concatenate([peaks[0], valleys[0]])
         indices.sort(axis=0)
